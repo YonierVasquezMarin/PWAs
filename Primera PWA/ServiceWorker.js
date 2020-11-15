@@ -3,11 +3,11 @@ const CACHE_NAME = 'v1_cache_programador_fitness',
   urlsToCache = [
     './',
     './script.js',
-    './img/ProgramadorFitness.png',
     './assets/images/favicon-default-v2.png',
     './assets/images/favicon-default.png'
-  ]
+  ];
 
+//TODO EL CÓDIGO EN ADELANTE ES DE USO GENERAL. PUEDE COPIARSE SIN PROBLEMAS.
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
 self.addEventListener('install', e => {
   e.waitUntil(
