@@ -1,0 +1,15 @@
+{
+    "short_name": "Primera PWA",
+    "name": "Primera PWA",
+    "icons": [
+      {
+        "src": "assets/images/favicon-default-v2.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "index.html",
+    "background_color": "black",
+    "theme_color": "black",
+    "display": "standalone"
+  }
