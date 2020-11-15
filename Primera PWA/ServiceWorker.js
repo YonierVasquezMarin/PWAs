@@ -1,7 +1,8 @@
 //asignar un nombre y versión al cache
-const CACHE_NAME = 'v1_cache_programador_fitness',
+const CACHE_NAME = 'v1_cache_primera_pwa',
   urlsToCache = [
     './',
+    './index.html',
     './script.js',
     './assets/images/favicon-default-v2.png',
     './assets/images/favicon-default.png'
