@@ -1,15 +1,18 @@
 {
-    "short_name": "Primera PWA",
     "name": "Primera PWA",
+    "short_name": "Primera PWA",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "description": "La primera PWA desarrollada por Yonier Vasquez Marin.",
+    "lang": "es-ES",
+    "background_color": "black",
+    "theme_color": "black",
+    "display": "standalone",
     "icons": [
       {
         "src": "assets/images/favicon-default-v2.png",
         "sizes": "144x144",
         "type": "image/png"
       }
-    ],
-    "start_url": "index.html",
-    "background_color": "black",
-    "theme_color": "black",
-    "display": "standalone"
+    ]
   }
